@@ -12,7 +12,7 @@ int main()
 
     }
     // now the number we obtain is an odd number
-    for(int i = 3; i<=sqrt(a); i++)
+    for(int i = 3; i<=sqrt(a); i = i + 2)
     {
         if(a%i== 0)
         {
